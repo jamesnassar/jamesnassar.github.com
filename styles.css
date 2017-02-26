@@ -1,0 +1,210 @@
+html body {
+  background: url("./img/background.jpg") no-repeat center right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  margin: 0px;
+}
+
+body p {
+  font-size: 1.2em;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body h1 {
+  font-size: 3.0em;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: bold;
+}
+
+body h3 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body a {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.main-heading {
+  padding-top: 30vh;
+  font-size: 7em;
+}
+
+.myButton .button {
+  background-color: rgba(255, 255, 255, 0);
+  transition: background-color .4s ease-in-out;
+  -moz-transition: background-color .4s ease-in-out;
+  -webkit-transition: background-color .4s ease-in-out;
+
+  border-radius: 0;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  margin: 3px 8px;
+  cursor: pointer;
+  border-style: solid;
+  border-color: white;
+  border-width: medium;
+  padding: 10px 20px;
+
+  font-size: 1.2em;
+}
+
+.myButton .button:hover {
+  background-color: rgba(255, 255, 255, 1);
+  color: black;
+}
+
+.myButton .button:focus {
+  outline: 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.navbar {
+  background-color: grey;
+  border-style: none;
+  min-height: 75px;
+  opacity: 0.93;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.navbar .container {
+  margin-top: 10px;
+}
+
+
+
+.splash-page {
+  height: 100vh;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.splash-page-inner {
+  color: white;
+}
+
+.splash-page-inner a:link,
+.splash-page-inner a:visited,
+.splash-page-inner a:hover,
+.splash-page-inner a:focus,
+.splash-page-inner a:active {
+  color: white;
+  text-decoration: none;
+  padding: 0px;
+}
+
+
+
+
+
+.about-me-outer {
+  background-color: white;
+  padding: 75px 30px 75px 30px;
+}
+
+@media (max-width: 768px) {
+  .about-me-image {
+    padding-top: 15px;
+  }
+}
+
+.bio {
+  background-color: white;
+  color: black;
+}
+
+.button {
+  background-color: rgba(255, 255, 255, 0);
+  transition: background-color .4s ease-in-out;
+  -moz-transition: background-color .4s ease-in-out;
+  -webkit-transition: background-color .4s ease-in-out;
+
+  color: black;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border-style: solid;
+  border-color: orange;
+  border-width: medium;
+  border-radius: 40px;
+  padding: 3px 15px;
+
+  font-weight: normal;
+  font-size: 1em;
+}
+
+.button:hover {
+  background-color: orange;
+  color: white;
+}
+
+.button:focus {
+  outline: 0;
+}
+
+
+
+.listen-outer {
+  background-color: rgb(255, 212, 128);
+  padding: 75px 30px 75px 30px;
+}
+
+@media (max-width: 768px) {
+  .listen .img {
+    padding-top: 25px;
+  }
+}
+
+
+.read-outer {
+  background-color: white;
+  padding: 75px 30px 75px 30px;
+}
+
+.read-files{
+    max-height: 250px;
+    max-width: 550px;
+  }
+
+
+
+.contact-outer {
+  background-color: #A0CA92;
+  padding: 75px 30px 75px 30px;
+}
+
+
+
+
+.footer {
+  background-color: #595959;
+  padding: 40px 30px 40px 30px;
+  color: white;
+  text-align: center;
+}
+
+.footer a:link,
+.footer a:visited,
+.footer a:hover,
+.footer a:focus,
+.footer a:active {
+  color: white;
+  text-decoration: none;
+  padding: 0px 8px 0px 8px;
+}
