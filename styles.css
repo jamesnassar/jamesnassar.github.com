@@ -11,12 +11,12 @@ body {
 }
 
 body p {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-family: 'Ubuntu', sans-serif;
 }
 
 body h1 {
-  font-size: 3.0em;
+  font-size: 3.0rem;
   font-family: 'Libre Franklin', sans-serif;
   font-weight: bold;
 }
@@ -31,7 +31,7 @@ body a {
 
 .main-heading {
   padding-top: 30vh;
-  font-size: 7em;
+  font-size: 7rem;
 }
 
 .myButton .button {
